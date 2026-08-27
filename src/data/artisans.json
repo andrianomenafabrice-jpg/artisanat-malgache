@@ -1,0 +1,112 @@
+[
+  {
+    "id": "a1",
+    "nom": "Rakoto Andriamampianina",
+    "region": "Amoron'i Mania",
+    "ville": "Ambositra",
+    "specialite": "Bois sculpté",
+    "badges": ["Savoir-faire Zafimaniry", "Patrimoine UNESCO"],
+    "bio": "Sculpteur zafimaniry depuis 18 ans, héritier d'une tradition transmise de père en fils autour d'Ambositra. Chaque pièce raconte un motif géométrique ancestral gravé à la main.",
+    "anneesExperience": 18,
+    "photo": "https://images.unsplash.com/photo-1687422810663-c316494f725a?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a2",
+    "nom": "Voahangy Razanamalala",
+    "region": "Vakinankaratra",
+    "ville": "Antsirabe",
+    "specialite": "Broderie",
+    "badges": ["Coopérative locale"],
+    "bio": "Brodeuse formée dans les ateliers d'Antsirabe, spécialiste des motifs floraux sur lin et coton, elle forme aussi de jeunes apprenties de son quartier.",
+    "anneesExperience": 12,
+    "photo": "https://images.unsplash.com/photo-1530785602389-07594beb8b73?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a3",
+    "nom": "Solofo Ravelojaona",
+    "region": "Analamanga",
+    "ville": "Antananarivo",
+    "specialite": "Vannerie",
+    "badges": ["Fibre de raphia certifiée", "Coopérative locale"],
+    "bio": "Vannier installé aux abords d'Antananarivo, il travaille le raphia et le sisal selon des techniques de tressage transmises par sa grand-mère.",
+    "anneesExperience": 22,
+    "photo": "https://images.unsplash.com/photo-1534953342533-7711c98712be?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a4",
+    "nom": "Hanta Rasoanaivo",
+    "region": "Haute Matsiatra",
+    "ville": "Fianarantsoa",
+    "specialite": "Tissage & lamba en soie",
+    "badges": ["Soie sauvage de Madagascar", "Teinture végétale"],
+    "bio": "Tisserande de lamba en soie sauvage dans la région de Fianarantsoa, elle perpétue un savoir-faire millénaire lié aux rites funéraires et cérémoniels malgaches.",
+    "anneesExperience": 15,
+    "photo": "https://images.unsplash.com/photo-1527201987695-67c06571957e?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a5",
+    "nom": "Tsiory Andriamanantena",
+    "region": "Atsimo-Andrefana",
+    "ville": "Toliara",
+    "specialite": "Corne & os zébu",
+    "badges": ["Matière recyclée", "Travail artisanal certifié"],
+    "bio": "Artisan de Toliara, il sculpte la corne de zébu récupérée en bijoux et objets du quotidien, dans une démarche de valorisation d'une matière locale abondante.",
+    "anneesExperience": 9,
+    "photo": "https://images.unsplash.com/photo-1565884280295-98eb83e41c65?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a6",
+    "nom": "Njara Rakotomalala",
+    "region": "Boeny",
+    "ville": "Mahajanga",
+    "specialite": "Poterie",
+    "badges": ["Argile locale", "Cuisson traditionnelle"],
+    "bio": "Potière de Mahajanga, elle façonne l'argile rouge de la région Boeny selon des techniques de cuisson à ciel ouvert héritées de sa communauté sakalava.",
+    "anneesExperience": 14,
+    "photo": "https://images.unsplash.com/photo-1556300219-2d2fdd6266d3?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a7",
+    "nom": "Fara Razafindrakoto",
+    "region": "Atsinanana",
+    "ville": "Toamasina",
+    "specialite": "Bijouterie",
+    "badges": ["Pierres locales", "Coopérative locale"],
+    "bio": "Bijoutière installée à Toamasina, elle sertit des pierres semi-précieuses malgaches — labradorite, agate — dans des montures en laiton et argent.",
+    "anneesExperience": 11,
+    "photo": "https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a8",
+    "nom": "Miora Andriantsoa",
+    "region": "Diana",
+    "ville": "Antsiranana",
+    "specialite": "Vannerie",
+    "badges": ["Fibre de raphia certifiée"],
+    "bio": "Vannière du nord de Madagascar, elle tresse des paniers et chapeaux en raphia teint aux pigments naturels, vendus jusque dans les boutiques d'Antsiranana.",
+    "anneesExperience": 7,
+    "photo": "https://images.unsplash.com/photo-1593351799227-75df2026356b?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a9",
+    "nom": "Dera Randrianasolo",
+    "region": "Menabe",
+    "ville": "Morondava",
+    "specialite": "Bois sculpté",
+    "badges": ["Bois de rose durable", "Travail artisanal certifié"],
+    "bio": "Sculpteur sur bois à Morondava, il travaille des essences locales gérées durablement pour créer des figurines inspirées des baobabs et de la faune malgache.",
+    "anneesExperience": 20,
+    "photo": "https://images.unsplash.com/photo-1647316897340-6b6de5597c0f?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  },
+  {
+    "id": "a10",
+    "nom": "Lova Ratsimbazafy",
+    "region": "Anosy",
+    "ville": "Fort-Dauphin",
+    "specialite": "Poterie",
+    "badges": ["Argile locale", "Coopérative locale"],
+    "bio": "Potière de Fort-Dauphin, elle s'inspire des formes traditionnelles antanosy pour créer une vaisselle contemporaine tout en gardant une cuisson artisanale.",
+    "anneesExperience": 16,
+    "photo": "https://images.unsplash.com/photo-1568782517100-09bf22d88c2d?auto=format&fit=facearea&facepad=3&w=400&h=400&q=80"
+  }
+]

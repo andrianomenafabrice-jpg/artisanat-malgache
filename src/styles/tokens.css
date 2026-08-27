@@ -1,0 +1,45 @@
+:root {
+  --ink: #211C16;
+  --raffia: #F1E7D3;
+  --sisal: #C08A2E;
+  --ravinala: #3F6B4F;
+  --tany-mena: #A8382B;
+
+  --bg: var(--raffia);
+  --text: var(--ink);
+  --surface: #E8DBC0;
+  --border: #D8C7A3;
+}
+
+.dark {
+  --nofy: #14171F;
+  --bg: var(--nofy);
+  --text: #F1E7D3;
+  --surface: #1D212C;
+  --border: #2A2F3D;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--sisal);
+  color: var(--raffia);
+}
+
+/* focus visible stylé, jamais outline:none seul */
+:focus-visible {
+  outline: 2px solid var(--sisal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}

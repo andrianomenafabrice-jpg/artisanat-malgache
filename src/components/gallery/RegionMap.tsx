@@ -3,18 +3,17 @@ import { motion, useReducedMotion } from 'framer-motion'
 import { REGIONS } from '../../types'
 import { useFilterStore } from '../../store/filterStore'
 
-// Chemins stylisés — représentation minimaliste, pas géographiquement exacte
 const REGION_PATHS: Record<string, string> = {
-  'Diana': 'M140,20 L185,68 L166,118 L104,118 L84,68 Z',
-  'Boeny': 'M104,118 L166,118 L156,188 L84,188 L74,148 Z',
-  'Atsinanana': 'M166,118 L226,138 L216,300 L196,398 L166,318 L156,188 Z',
-  'Analamanga': 'M84,188 L156,188 L150,254 L90,254 Z',
-  'Vakinankaratra': 'M90,254 L150,254 L145,314 L85,314 Z',
-  "Amoron'i Mania": 'M85,314 L145,314 L140,368 L80,368 Z',
-  'Haute Matsiatra': 'M80,368 L140,368 L130,422 L76,422 Z',
-  'Menabe': 'M74,148 L84,188 L90,254 L85,314 L80,368 L40,398 L16,338 L20,218 L44,168 Z',
-  'Atsimo-Andrefana': 'M40,398 L76,422 L130,422 L118,468 L88,498 L44,478 L18,438 Z',
-  'Anosy': 'M130,422 L196,398 L170,480 L120,540 L88,498 L118,468 Z',
+  'Diana': 'M118,18 L158,50 L150,92 L100,96 L82,58 Z',
+  'Boeny': 'M82,58 L100,96 L96,148 L54,150 L48,108 L60,80 Z',
+  'Atsinanana': 'M150,92 L188,110 L200,220 L188,340 L160,360 L150,240 L96,148 L100,96 Z',
+  'Analamanga': 'M96,148 L150,240 L128,280 L88,270 L70,210 L54,150 Z',
+  'Vakinankaratra': 'M88,270 L128,280 L120,326 L82,332 L68,296 Z',
+  "Amoron'i Mania": 'M82,332 L120,326 L114,368 L78,374 Z',
+  'Haute Matsiatra': 'M78,374 L114,368 L106,412 L72,418 Z',
+  'Menabe': 'M48,108 L54,150 L70,210 L88,270 L82,332 L78,374 L44,392 L18,320 L20,200 L30,140 Z',
+  'Atsimo-Andrefana': 'M44,392 L78,374 L72,418 L106,412 L96,456 L60,486 L28,452 L20,410 Z',
+  'Anosy': 'M106,412 L160,360 L150,240 L188,340 L172,430 L140,486 L96,456 Z',
 }
 
 export default function RegionMap() {
@@ -31,7 +30,6 @@ export default function RegionMap() {
 
   return (
     <div className="w-full">
-      {/* Carte SVG — visible à partir de md */}
       <div className="hidden md:flex flex-col items-center">
         <svg
           viewBox="0 0 240 560"
@@ -60,12 +58,12 @@ export default function RegionMap() {
                 strokeWidth={2}
                 className="cursor-pointer outline-none"
                 animate={{
-                  fill: isActive ? '#C08A2E' : isHovered ? '#D9A94F' : '#C08A2E',
+                  fill: isActive ? '#2F6B4A' : isHovered ? '#4C8A66' : '#2F6B4A',
                   fillOpacity: isActive ? 1 : isHovered ? 0.7 : 0.22,
                 }}
                 transition={{ duration: shouldReduceMotion ? 0 : 0.25 }}
                 style={{
-                  filter: isActive ? 'drop-shadow(0 2px 6px rgba(192,138,46,0.5))' : 'none',
+                  filter: isActive ? 'drop-shadow(0 2px 6px rgba(47,107,74,0.5))' : 'none',
                 }}
               >
                 <title>{region}</title>
@@ -86,7 +84,6 @@ export default function RegionMap() {
         )}
       </div>
 
-      {/* Fallback liste — visible en dessous de md (SVG trop petit pour être utilisable au doigt) */}
       <div className="md:hidden flex flex-wrap gap-2" role="group" aria-label="Filtrer par région">
         {REGIONS.map((region) => {
           const isActive = activeRegion === region

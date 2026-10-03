@@ -5,21 +5,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#211C16',
-        raffia: '#F1E7D3',
-        nofy: '#14171F',
+        ink: '#1D2420',
+        raffia: '#ECE7DA',
+        nofy: '#13170F',
         sisal: {
-          DEFAULT: '#C08A2E',
-          light: '#D9A94F',
-          dark: '#96691F',
+          DEFAULT: '#2F6B4A',
+          light: '#4C8A66',
+          dark: '#1F4E35',
         },
         ravinala: {
-          DEFAULT: '#3F6B4F',
-          light: '#5A8A6B',
+          DEFAULT: '#B9873A',
+          light: '#D1A35E',
         },
         'tany-mena': {
-          DEFAULT: '#A8382B',
-          light: '#C24B3D',
+          DEFAULT: '#9C4A32',
+          light: '#B5614A',
         },
       },
       fontFamily: {

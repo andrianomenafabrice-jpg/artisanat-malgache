@@ -23,10 +23,10 @@ h1, h2, h3, h4 {
 /* Ajustement de contraste WCAG AA pour les petits textes en --sisal (labels mono) */
 .font-mono.text-sisal,
 .text-sisal.font-mono {
-  color: #A6741F; /* légèrement plus foncé que --sisal pur, meilleur contraste sur --raffia */
+  color: #1F4E35;
 }
 
 .dark .font-mono.text-sisal,
 .dark .text-sisal.font-mono {
-  color: #D9A94F; /* plus clair en mode sombre pour le contraste inverse */
+  color: #6FAE86;
 }
